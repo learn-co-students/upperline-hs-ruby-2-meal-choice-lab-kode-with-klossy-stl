@@ -5,19 +5,19 @@ end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them with a default to your favorite.
 
-def breakfast(breakfast)
+def breakfast (breakfast="eggs")
   "What's better than waking up to #{breakfast}?"
 end
-def lunch(lunch)
+def lunch (lunch="pizza")
   "Why not enjoy #{lunch} for lunch."
 end
-def dinner(dinner)
-  "#{pizza} is great for dinner!"
+def dinner (dinner="soup")
+  "#{dinner} is great for dinner!"
 end
 
-breakfast(eggs)
-lunch(sandwhich)
-dinner(pasta)
+puts breakfast
+puts lunch
+puts dinner
 
 
 
